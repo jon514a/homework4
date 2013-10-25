@@ -1,7 +1,6 @@
 Code for problem 3.17 in Schrijver.  Requires Python 2.6 or 2.7.
 
-To run, download the files in this directory to the same directory.  In the terminal, enter
+To run, download the files in this repo to the same directory.  In the terminal, enter
 > python maxmatching.py
 
-Note that we have relabeled the vertices of the graph.  The vertices a through j, in Schrijver's
-notation, have been relabeled 11 through 20.
+Note that we have relabeled the vertices of the graph.  The vertices a through j, in Schrijver's notation, have been relabeled 11 through 20.

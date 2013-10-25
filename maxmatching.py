@@ -130,7 +130,7 @@ class MaxMatching(object):
         X, Y = self._APrimeBPrime(maxM)
         for a, b in maxM:
             pathEndingInb = False
-            for x in X:
+            for x in X: # search for a path starting in A' ending in b
                 D, P = Dijkstra(dg, x)
                 if b in D:
                     pathEndingInb = True

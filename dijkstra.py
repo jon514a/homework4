@@ -1,7 +1,8 @@
 """
 A modified version of David Eppstein's implementation of
 Dijkstra's algorithm.  See his implementation at
-http://code.activestate.com/recipes/119466-dijkstras-algorithm-for-shortest-paths/.
+http://code.activestate.com/recipes/119466-dijkstras-algorithm-for-shortest-paths/
+We use his code for educational purposes only.
 """
 from heapq import *
 
@@ -25,10 +26,10 @@ def Dijkstra(G, start, end=None):
                     heappush(Q, (dvw, w))
                     P[w] = v
 
-    return (D,P)
+    return (D, P)
 
 def shortestPath(G, start, end):
-    D,P = Dijkstra(G, start, end)
+    D, P = Dijkstra(G, start, end)
     path = []
     while True:
         path.append(end)
